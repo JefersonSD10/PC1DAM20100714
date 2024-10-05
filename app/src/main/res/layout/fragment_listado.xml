@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Título de la lista -->
+    <TextView
+        android:layout_width="378dp"
+        android:layout_height="wrap_content"
+        android:text="PLAYERS"
+        android:textAlignment="center"
+        android:textSize="48sp" />
+
+
+    <!-- RecyclerView para mostrar la lista de jugadores -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view_jugadores"
+        android:layout_width="match_parent"
+        android:layout_height="575dp"
+        android:layout_weight="1"
+        android:scrollbars="vertical" />
+
+    <!-- Botón para regresar al login -->
+    <Button
+        android:id="@+id/btn_return_login"
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:text="Return to Login" />
+</LinearLayout>

@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_home"
+        android:title="Inicio" />
+    <item
+        android:id="@+id/nav_jugadores"
+        android:title="Listado de Jugadores" />
+    <item
+        android:id="@+id/nav_rendimiento"
+        android:title="Rendimiento" />
+    <item
+        android:id="@+id/nav_equipos"
+        android:title="Equipos" />
+</menu>
